@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
                 case "Adelante":
                     ballRB.AddForce(Vector3.forward * 3);
                     break;
-                case "Atras":
+                case "Abajo":
                     ballRB.AddForce(Vector3.back * 3);
                     break;
                 
