@@ -8,7 +8,7 @@ public class ObScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Jugador"))
+        if (other.CompareTag("Player"))
         {
             // Agregar el puntaje al recolector de puntaje.
             Recolectar recolector = FindObjectOfType<Recolectar>();

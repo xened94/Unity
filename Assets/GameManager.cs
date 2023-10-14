@@ -64,16 +64,16 @@ public class GameManager : MonoBehaviour
             switch (messageWB)
             {
                 case "Derecha":
-                    ballRB.AddForce(Vector3.right * 3);
+                    ballRB.AddForce(Vector3.right * 0.5f);
                     break;
                 case "Izquierda":
-                    ballRB.AddForce(Vector3.left * 3);
+                    ballRB.AddForce(Vector3.left * 0.5f);
                     break;
                 case "Adelante":
-                    ballRB.AddForce(Vector3.forward * 3);
+                    ballRB.AddForce(Vector3.forward * 0.5f);
                     break;
                 case "Abajo":
-                    ballRB.AddForce(Vector3.back * 3);
+                    ballRB.AddForce(Vector3.back * 0.5f);
                     break;
                 
             }
