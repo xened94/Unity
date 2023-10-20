@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class Recolectar : MonoBehaviour
 {
-    private int puntajeTotal = 0;
+    public string nombre = "";
+    public ControlDeNombre controlDeNombre;
+    public int puntajeTotal = 0;
     public Text puntajeText; // Texto en pantalla para mostrar el puntaje.
     public Text mensajeFinal; // Texto en pantalla para mostrar el mensaje final.
+    public GameObject elementosUI;
 
     public void SumarPuntaje(int puntaje)
     {
@@ -21,8 +24,14 @@ public class Recolectar : MonoBehaviour
     }
 
     // Llamar a esta función al final del juego para mostrar el mensaje final.
-    public void MostrarMensajeFinal()
-    {
-        mensajeFinal.text = "¡Felicidades! Obtuviste " + puntajeTotal + " puntos. ";
-    }
+public void MostrarMensajeFinal()
+{
+    mensajeFinal.text = "¡Felicidades, " + nombre + "! Obtuviste " + puntajeTotal + " puntos. ";
+    elementosUI.SetActive(!GameManager.juegoPausado);
+}
+
+public void SetNombre(string nuevoNombre)
+{
+    nombre = nuevoNombre;
+}
 }

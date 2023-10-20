@@ -10,12 +10,22 @@ public class OntriggerCollider : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        UIObject.SetActive(true);
-        Debug.Log("Contacto");
+        if (GameManager.juegoPausado)
+        {
+            // Si el juego está pausado, reanúdalo
+            GameManager.CambiarEstadoJuego();
+        }
+        else
+        {
+            // Si el juego no está pausado, haz la pausa
+             UIObject.SetActive(true);
+            Debug.Log("Contacto");
 
-        // Llama a la función MostrarMensajeFinal del script Recolectar.
-        recolectarScript.MostrarMensajeFinal();
+            // Llama a la función MostrarMensajeFinal del script Recolectar.
+            recolectarScript.MostrarMensajeFinal();
+
+            // Pausa el juego
+            GameManager.CambiarEstadoJuego();
+        }
     }
 }
-
-

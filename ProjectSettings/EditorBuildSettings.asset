@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UpDown.unity
     guid: 6793cf491a8c74b4e94e1614b1275e01
+  - enabled: 1
+    path: Assets/Scenes/RunDodge.unity
+    guid: bdc0ed5016395464380d18185e7de812
   m_configObjects: {}

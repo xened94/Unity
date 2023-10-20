@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour
     }
    public void EnProgreso()
     {
-        SceneManager.LoadScene("En progreso"); // Nombre de la escena que quieres cargar.
+        SceneManager.LoadScene("RunDodge"); // Nombre de la escena que quieres cargar.
     }
 
        public void UpDown()

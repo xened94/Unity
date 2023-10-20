@@ -5,6 +5,8 @@ using NativeWebSocket;
 
 public class GameManager : MonoBehaviour
 {
+    
+    public static bool juegoPausado = false;
     public GameObject ball;
     public Rigidbody ballRB;
     public string messageWB;
@@ -78,6 +80,12 @@ public class GameManager : MonoBehaviour
                 
             }
         }
+           // Manejo de la tecla "R" para pausar/reanudar el juego
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            CambiarEstadoJuego();
+        }
+    
     }
 
     async void SendWebSocketMessage()
@@ -96,5 +104,23 @@ public class GameManager : MonoBehaviour
     {
         await websocket.Close();
     }
+
+  public static void CambiarEstadoJuego()
+{
+    juegoPausado = !juegoPausado;
+
+    if (juegoPausado)
+    {
+        // Pausar el juego completamente
+        Time.timeScale = 0;
+    }
+    else
+    {
+        // Reanudar el juego
+        Time.timeScale = 1;
+    }
+}
+
+
 
 }
