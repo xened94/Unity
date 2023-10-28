@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObScript : MonoBehaviour
 {
     public int valorPuntaje = 10;
-
+    public AudioSource audioPlayer;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -15,6 +15,7 @@ public class ObScript : MonoBehaviour
             recolector.SumarPuntaje(valorPuntaje);
 
             // Opcional: Realizar efectos o destruir el objeto obstáculo.
+            audioPlayer.Play();
             Destroy(gameObject);
         }
     }

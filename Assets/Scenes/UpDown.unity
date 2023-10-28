@@ -170,6 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &7426882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -376,6 +377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &48474834
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -595,6 +597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &77557770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -752,6 +755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &83803488
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -878,6 +882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &95871482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1021,6 +1026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &107576854
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1208,6 +1214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &134336798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1334,6 +1341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &140473308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1446,6 +1454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &142466185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1666,6 +1675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &155929467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1778,6 +1788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &156838459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1950,7 +1961,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191371838}
-  m_LocalRotation: {x: 0.34446222, y: 0.000000027978428, z: -0.000000010265775, w: 0.9388002}
+  m_LocalRotation: {x: 0.34446225, y: -1.341506e-15, z: 1.5593733e-15, w: 0.9388002}
   m_LocalPosition: {x: 0, y: 10.469999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2006,6 +2017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &193565074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2163,6 +2175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &214785247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2307,6 +2320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UIObject: {fileID: 150584192}
   recolectarScript: {fileID: 571455633}
+  audioPlayer: {fileID: 1882333771}
 --- !u!65 &228182056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2433,6 +2447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &243487888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2740,6 +2755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &288390444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3125,6 +3141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 5
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &340598483
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3251,6 +3268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &346990452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3474,6 +3492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &379199294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3692,6 +3711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &390270034
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3818,6 +3838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &396882277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3944,6 +3965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &408001172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4198,6 +4220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 5
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &424796343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4469,6 +4492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &446961410
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4625,6 +4649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &463512653
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4737,6 +4762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &467737565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4955,6 +4981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &519961804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5081,6 +5108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &533418441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5462,6 +5490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &579814059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5588,6 +5617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &590957296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5732,6 +5762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 5
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &601764194
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5986,6 +6017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &650167237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6112,6 +6144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &660684409
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6349,6 +6382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &682929791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6600,6 +6634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &706872392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6852,6 +6887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &743352021
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6964,6 +7000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &750522814
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7217,6 +7254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &765286202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7343,6 +7381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &784321460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7469,6 +7508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &791953433
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7595,6 +7635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &812745857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7966,6 +8007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &841291872
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8092,6 +8134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &844875675
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8249,6 +8292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &856953710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8406,6 +8450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &861463785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8579,6 +8624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &887881685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8705,6 +8751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &901705324
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9345,6 +9392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &977839705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9502,6 +9550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &996434628
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9861,6 +9910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1012029863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10095,6 +10145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1024623781
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10187,6 +10238,7 @@ GameObject:
   - component: {fileID: 1025857933}
   - component: {fileID: 1025857932}
   - component: {fileID: 1025857931}
+  - component: {fileID: 1025857936}
   m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
@@ -10207,6 +10259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1025857932
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10286,6 +10339,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: -90, y: 90, z: 0}
+--- !u!82 &1025857936
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025857930}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1bc643d7f6ffc5d45bf422d2b4f1133a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1028340839
 GameObject:
   m_ObjectHideFlags: 0
@@ -10364,6 +10513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1049515838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10490,6 +10640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1056168480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10696,6 +10847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1059918191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10822,6 +10974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1068365449
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10948,6 +11101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1076514966
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11074,6 +11228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1100723153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11200,6 +11355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1110498818
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11312,6 +11468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1128464912
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11438,6 +11595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 5
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1145503418
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11706,6 +11864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1172517099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11881,6 +12040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1200011109
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12020,6 +12180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1212070947
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12274,6 +12435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1219368369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12431,6 +12593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1229591735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12859,6 +13022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1276896101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13221,6 +13385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 5
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1321319668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13378,6 +13543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1367604353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13631,6 +13797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1398205663
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13819,6 +13986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 5
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1407481132
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14180,6 +14348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1468480752
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14306,6 +14475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1478752165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14416,6 +14586,134 @@ Transform:
   m_Father: {fileID: 156838462}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1512340520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1512340522}
+  - component: {fileID: 1512340521}
+  m_Layer: 0
+  m_Name: recolectarAudioSource
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1512340521
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512340520}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1bc643d7f6ffc5d45bf422d2b4f1133a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.504
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1512340522
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512340520}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.030847, y: 10.001221, z: 0.0064078122}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 122
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1512570249
 GameObject:
   m_ObjectHideFlags: 0
@@ -14494,6 +14792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1530564942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14620,6 +14919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1536828594
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14746,6 +15046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1549327632
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14859,6 +15160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 5
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1568181472
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15029,6 +15331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1608016115
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15186,6 +15489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1624955749
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15312,6 +15616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1631585764
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15438,6 +15743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1645484699
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15719,6 +16025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1689644229
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16072,6 +16379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1745033819
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16229,6 +16537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1794248419
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16386,6 +16695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1832259841
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16592,6 +16902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1848735948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16732,6 +17043,134 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1624955752}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1882333770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1882333772}
+  - component: {fileID: 1882333771}
+  m_Layer: 0
+  m_Name: ' mensajeFinalAudioSource'
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1882333771
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882333770}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: df69fa72131cb984cbca5cc00268c024, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.322
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1882333772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882333770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 501.49506, y: 264, z: -0.006630957}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 121
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1887824340
 GameObject:
@@ -16877,6 +17316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1893818972
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17003,6 +17443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1910181168
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17129,6 +17570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1915984880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17255,6 +17697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1922494628
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17523,6 +17966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1943870424
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17864,6 +18308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1963231033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17990,6 +18435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &1977415627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18246,6 +18692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &2040811802
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18372,6 +18819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &2046575158
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18859,6 +19307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &2113257942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19016,6 +19465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &2115716051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19240,6 +19690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &2136110067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19366,6 +19817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorPuntaje: 10
+  audioPlayer: {fileID: 1512340521}
 --- !u!65 &2136123809
 BoxCollider:
   m_ObjectHideFlags: 0
