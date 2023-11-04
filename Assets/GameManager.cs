@@ -5,13 +5,28 @@ using NativeWebSocket;
 
 public class GameManager : MonoBehaviour
 {
-    
+    public static GameManager instance;
     public static bool juegoPausado = false;
     public GameObject ball;
     public Rigidbody ballRB;
     public string messageWB;
     WebSocket websocket;
+    public string playerName = "";
+    public bool usarMovimientoIzquierda = true; // Esta variable controlará el conjunto de casos
 
+
+  private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject); // Mantén este objeto entre las escenas
+        }
+        else
+        {
+            Destroy(gameObject); // Solo debe haber un GameManager
+        }
+    }
     // Start is called before the first frame update
     async void Start()
     {
@@ -59,27 +74,45 @@ public class GameManager : MonoBehaviour
         websocket.DispatchMessageQueue();
 #endif
 
-        if (!string.IsNullOrEmpty(messageWB))
-        {
-            Debug.Log(messageWB);
-
-            switch (messageWB)
-            {
-                case "Derecha":
-                    ballRB.AddForce(Vector3.right * 0.5f);
-                    break;
-                case "Izquierda":
-                    ballRB.AddForce(Vector3.left * 0.5f);
-                    break;
-                case "Adelante":
-                    ballRB.AddForce(Vector3.forward * 0.5f);
-                    break;
-                case "Abajo":
-                    ballRB.AddForce(Vector3.back * 0.5f);
-                    break;
-                
-            }
-        }
+if (usarMovimientoIzquierda)
+{
+    // Casos para el movimiento de izquierda
+    switch (messageWB)
+    {
+        case "LDerecha":
+            ballRB.AddForce(Vector3.right * 0.5f);
+            break;
+        case "LIzquierda":
+            ballRB.AddForce(Vector3.left * 0.5f);
+            break;
+        case "LAdelante":
+            ballRB.AddForce(Vector3.forward * 0.5f);
+            break;
+        case "LAbajo":
+            ballRB.AddForce(Vector3.back * 0.5f);
+            break;
+    }
+}
+else
+{
+    // Casos para el movimiento de derecha
+    switch (messageWB)
+    {
+        case "Derecha":
+            ballRB.AddForce(Vector3.right * 0.5f);
+            break;
+        case "Izquierda":
+            ballRB.AddForce(Vector3.left * 0.5f);
+            break;
+        case "Adelante":
+            ballRB.AddForce(Vector3.forward * 0.5f);
+            break;
+        case "Abajo":
+            ballRB.AddForce(Vector3.back * 0.5f);
+            break;
+    }
+}
+    
            // Manejo de la tecla "R" para pausar/reanudar el juego
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -121,6 +154,22 @@ public class GameManager : MonoBehaviour
     }
 }
 
+    public void SetPlayerName(string name)
+    {
+        playerName = name;
+    }
+
+  public void BotonIzquierdaPresionado()
+{
+    // Establece que se usará el movimiento de izquierda
+    usarMovimientoIzquierda = true;
+}
+
+public void BotonDerechaPresionado()
+{
+    // Establece que se usará el movimiento de derecha
+    usarMovimientoIzquierda = false;
+}
 
 
 }

@@ -5,13 +5,19 @@ using UnityEngine.UI;
 
 public class Recolectar : MonoBehaviour
 {
-    public string nombre = "";
-    public ControlDeNombre controlDeNombre;
     public int puntajeTotal = 0;
     public Text puntajeText; // Texto en pantalla para mostrar el puntaje.
     public Text mensajeFinal; // Texto en pantalla para mostrar el mensaje final.
-    public GameObject elementosUI;
+    
 
+    private void Start()
+    {
+        // Obtén el nombre del jugador desde PlayerPrefs
+        string nombre = PlayerPrefs.GetString("NombreJugador");
+        Debug.Log("Nombre del jugador: " + nombre);
+    }
+
+    
     public void SumarPuntaje(int puntaje)
     {
         puntajeTotal += puntaje;
@@ -24,14 +30,14 @@ public class Recolectar : MonoBehaviour
     }
 
     // Llamar a esta función al final del juego para mostrar el mensaje final.
-public void MostrarMensajeFinal()
-{
-    mensajeFinal.text = "¡Felicidades, " + nombre + "! Obtuviste " + puntajeTotal + " puntos. ";
-    elementosUI.SetActive(!GameManager.juegoPausado);
-}
+    public void MostrarMensajeFinal()
+    {
+        // Obtén el nombre del jugador desde PlayerPrefs
+        string nombre = PlayerPrefs.GetString("NombreJugador");
 
-public void SetNombre(string nuevoNombre)
-{
-    nombre = nuevoNombre;
-}
+        // Resto del código para mostrar el mensaje final
+        mensajeFinal.text = "¡Felicidades, " + nombre + "! Obtuviste " + puntajeTotal + " puntos. ";
+        Time.fixedDeltaTime = 0f;
+    }
+
 }
