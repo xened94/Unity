@@ -38,9 +38,10 @@ public class Recolectar : MonoBehaviour
         string nombre = PlayerPrefs.GetString("NombreJugador");
 
         // Resto del código para mostrar el mensaje final
+         
         mensajeFinalFondo.SetActive(true);
         mensajeFinal.text = "¡Felicidades, " + nombre + "! Obtuviste " + puntajeTotal + " puntos. ";
-        Time.fixedDeltaTime = 0f;
+        Time.timeScale = 0;
     }
 
 }

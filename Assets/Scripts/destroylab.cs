@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObScript : MonoBehaviour
+public class destroylab : MonoBehaviour
 {
     public int valorPuntaje = 10;
     private AudioSource audioPlayer;  // Remueve la referencia pública
@@ -21,9 +21,7 @@ private void OnTriggerEnter(Collider other)
         recolector.SumarPuntaje(valorPuntaje);
 
         audioPlayer.Play();
-
-        // Llama a la función Reiniciar en lugar de simplemente activar
-        GetComponent<ReiniciarObjeto>().Reiniciar();
+            Destroy(gameObject);
+        }
     }
-}
 }

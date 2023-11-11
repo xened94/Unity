@@ -1,17 +1,19 @@
+
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ObjetoQueCae : MonoBehaviour
 {
     public float velocidad = 2.0f; // Velocidad de caída
     public float tiempoEspera = 2.0f; // Tiempo de espera antes de que aparezca el siguiente objeto
+    public float minX = -5f; // Valor mínimo para X
+    public float maxX = 5f;  // Valor máximo para X
 
     private Vector3 posicionInicial;
 
     void Start()
     {
-        posicionInicial = transform.position;
+        posicionInicial = GetRandomSpawnPosition();
         StartCoroutine(SpawnObjectWithDelay());
     }
 
@@ -29,19 +31,28 @@ public class ObjetoQueCae : MonoBehaviour
             gameObject.SetActive(true);
 
             // Reinicia su movimiento
-            // (en este ejemplo, solo reiniciamos su posición)
+            StartCoroutine(MoveObjectDown());
         }
     }
 
-    void Update()
+    IEnumerator MoveObjectDown()
     {
-        // Mueve el objeto hacia abajo a lo largo del eje Y
-        transform.Translate(Vector3.down * velocidad * Time.deltaTime);
-
-        // Si el objeto cae fuera de la pantalla, desactívalo
-        if (transform.position.y < -5f)
+        while (transform.position.y > -5f)
         {
-            gameObject.SetActive(true);
+            // Mueve el objeto hacia abajo a lo largo del eje Y
+            transform.Translate(Vector3.down * velocidad * Time.deltaTime);
+            yield return null;
         }
+
+        // Desactiva el objeto cuando alcanza una cierta posición en Y
+        gameObject.SetActive(false);
+    }
+
+    Vector3 GetRandomSpawnPosition()
+    {
+        float x = Random.Range(minX, maxX);
+        float y = 5.0f; // Altura fija en Y
+        float z = 0f; // Posición Z fija en 0
+        return new Vector3(x, y, z);
     }
 }

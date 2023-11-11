@@ -5,7 +5,7 @@ using UnityEngine.Audio;
 
 public class OntriggerCollider : MonoBehaviour
 {
-    public GameObject UIObject;
+   
     public Recolectar recolectarScript;
     public AudioSource audioPlayer;
 
@@ -19,7 +19,7 @@ public class OntriggerCollider : MonoBehaviour
         else
         {
             // Si el juego no está pausado, haz la pausa
-            UIObject.SetActive(true);
+            
             Debug.Log("Contacto");
             audioPlayer.Play();
 
@@ -38,6 +38,3 @@ public class OntriggerCollider : MonoBehaviour
         }
     }
 }
-
-
-
