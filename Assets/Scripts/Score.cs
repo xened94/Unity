@@ -6,18 +6,24 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
     public Text scoreText;
-    public int score;
+    private float tiempoTotal;
+
     // Start is called before the first frame update
-        void Start()
+    void Start()
     {
-        
+        tiempoTotal = 0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        score = (int)Time.time;
-        scoreText.text = score.ToString();
-        
+        tiempoTotal += Time.deltaTime;
+        scoreText.text = Mathf.FloorToInt(tiempoTotal).ToString();
+    }
+
+    // Llamado al finalizar el minijuego o cambiar de escena
+    public float ObtenerTiempoTotal()
+    {
+        return tiempoTotal;
     }
 }

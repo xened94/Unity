@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using NativeWebSocket;
+using Mono.Data.Sqlite;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +15,15 @@ public class GameManager : MonoBehaviour
     WebSocket websocket;
     public string playerName = "";
     public bool usarMovimientoIzquierda = true;
+    public DatabaseManager databaseManager;
+   private float tiempoDelJuego;
+    private int objetosObtenidos;
+    private int tratamientoActual = 1;
+    private string level;
+        private string nombreMinijuego;
+        public Recolectar recolectarScript;
+        private Score scoreScript;
+
 
     private void Awake()
     {
@@ -26,7 +36,9 @@ public class GameManager : MonoBehaviour
     async void Start()
     
     {
-         
+         scoreScript = FindObjectOfType<Score>();
+      databaseManager = FindObjectOfType<DatabaseManager>();
+        recolectarScript = FindObjectOfType<Recolectar>(); // Mueve la inicialización aquí
         ball = GameObject.Find("Sphere");
         ballRB = ball.GetComponent<Rigidbody>();
         websocket = new WebSocket("ws://localhost:3000");
@@ -157,16 +169,71 @@ if (!string.IsNullOrEmpty(messageWB))
     public void SetPlayerName(string name)
     {
         playerName = name;
+        recolectarScript.SetPlayerName(name);
     }
 
 public void BotonIzquierdaPresionado()
 {
     usarMovimientoIzquierda = true;
+    Debug.Log("Botón Izquierda presionado. Nueva dirección: Izquierda");
 }
 
 public void BotonDerechaPresionado()
 {
     usarMovimientoIzquierda = false;
+    Debug.Log("Botón Derecha presionado. Nueva dirección: Derecha");
 }
+
+
+ public void FinalizarJuego()
+    {
+        // Asegurémonos de tener una referencia válida a RecolectarScript
+           if (recolectarScript == null || scoreScript == null)
+        {
+             Debug.LogError("No se encontró un objeto con el script Recolectar o Score en la escena.");
+        return;
+        }
+
+        // Ahora puedes usar recolectarScript en el resto del método
+        
+       
+        int score = recolectarScript.puntajeTotal;
+        float time = scoreScript.ObtenerTiempoTotal();
+        string miniGameName = nombreMinijuego; // Reemplaza esto con el nombre real del minijuego
+        
+        int objectCount = Mathf.FloorToInt(score / 10.0f); // Calcula objetos obtenidos
+        
+        // Obtén el puntaje total desde el script Recolectar
+         string playerName = recolectarScript.ObtenerNombreJugador();
+
+        // Inserta los datos en la base de datos utilizando el tratamiento actual
+       string level = usarMovimientoIzquierda ? "Izquierda" : "Derecha";
+        databaseManager.InsertarDatosDelJuego(score, miniGameName, level, time, objectCount, tratamientoActual, playerName);
+
+        // Incrementa el tratamientoActual para el próximo juego
+        tratamientoActual++;
+    }
+
+    public static void FinalizarJuegoStatic()
+    {
+        // Accede a la instancia actual de GameManager
+        GameManager instance = FindObjectOfType<GameManager>();
+        if (instance != null)
+        {
+            instance.FinalizarJuego();
+        }
+        else
+        {
+            Debug.LogError("No se encontró una instancia de GameManager.");
+        }
+    }
+
+        public void SetNombreMinijuego(string nombre)
+    {
+        nombreMinijuego = nombre;
+    }
+
+
+    
 
 }

@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/UpDown.unity
     guid: 74cd3323cb097fb4bab8d982b9537753
   - enabled: 1
+    path: Assets/Scenes/TablaPuntuacionesScene.unity
+    guid: 605c5a33a1ba620409ae8591abf40210
+  - enabled: 1
     path: Assets/Scenes/LaberintoP.unity
     guid: 9c238af3ba34a864ea7a2cc67bb2352a
   - enabled: 1

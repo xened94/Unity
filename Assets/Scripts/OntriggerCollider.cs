@@ -8,6 +8,7 @@ public class OntriggerCollider : MonoBehaviour
    
     public Recolectar recolectarScript;
     public AudioSource audioPlayer;
+    
 
     private void OnTriggerEnter(Collider other)
     {
@@ -29,12 +30,29 @@ public class OntriggerCollider : MonoBehaviour
 
             // Llama a la función MostrarMensajeFinal del script Recolectar.
             recolectarScript.MostrarMensajeFinal();
-
+             
             // Reproduce el sonido del mensaje final
-            
+           // Accede a la instancia actual de GameManager y establece el nombre del minijuego
+            GameManager gameManagerInstance = FindObjectOfType<GameManager>();
+            if (gameManagerInstance != null)
+            {
+                gameManagerInstance.SetNombreMinijuego(GetNombreEscena());
+            }
+            else
+            {
+                Debug.LogError("No se encontró una instancia de GameManager.");
+            }
+
 
             // Pausa el juego
             GameManager.CambiarEstadoJuego();
+           GameManager.FinalizarJuegoStatic();
+           
         }
+    }
+        // Obtiene el nombre de la escena actual
+    private string GetNombreEscena()
+    {
+        return UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
     }
 }
