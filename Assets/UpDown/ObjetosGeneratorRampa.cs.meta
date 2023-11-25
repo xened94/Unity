@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7bcfd97d95deb1d4fb5ff1d239d9fb40
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - manzanaRPrefab: {fileID: 714640271852583412, guid: c1bc43b53c4d30d40800271cd82b0d6e, type: 3}
+  - papaRPrefab: {fileID: 4537339302469115631, guid: 31d0c705ece5ace41b52b357375d24f6, type: 3}
+  - naranjaRPrefab: {fileID: 8181220710540234559, guid: 6561029dbb74fed40adb0f8765ef69cd, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

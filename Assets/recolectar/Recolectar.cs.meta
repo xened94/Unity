@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6f38eae76fe383743a735e8c61002371
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mensajeFinalFondo: {fileID: 866240676118779667, guid: b1dbd96436ee7b14aa958edaeec028ce, type: 3}
+  - puntajeText: {instanceID: 0}
+  - mensajeFinal: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

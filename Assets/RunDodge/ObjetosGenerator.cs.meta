@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0c58230cb15c9164e84673ec32a8d639
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - manzanaPrefab: {fileID: 5273910565880105048, guid: af621031cfae7ad469a074b41ded9486, type: 3}
+  - naranjaPrefab: {fileID: 775032175173468428, guid: abe26a16b9702a046afde1106cf3466c, type: 3}
+  - papaPrefab: {fileID: 5144023262764545491, guid: 925a830bbe70f6649aefd8f3d6f1499a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
