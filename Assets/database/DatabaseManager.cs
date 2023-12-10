@@ -8,25 +8,28 @@ public class DatabaseManager : MonoBehaviour
     private IDbConnection dbConnection;
     private GameManager gameManager;
 
-    void Start()
+ void Start()
+{
+    gameManager = FindObjectOfType<GameManager>();
+
+    // Ruta de la base de datos
+    string dbPath = Path.Combine(Application.persistentDataPath, "terapias.db");
+
+    // Verificar si la base de datos existe
+    if (File.Exists(dbPath))
     {
-        gameManager = FindObjectOfType<GameManager>();
-
-        // Ruta de la base de datos
-        string dbPath = Path.Combine(Application.dataPath, "terapias.db");
-
-        // Verificar si la base de datos existe
-        if (File.Exists(dbPath))
-        {
-            // Si la base de datos existe, abrir la conexión
-            Debug.Log("La base de datos existe. Abriendo la base de datos...");
-            OpenDB(dbPath);
-        }
-        else
-        {
-            Debug.LogError("La base de datos no existe. Asegúrate de haberla creado previamente.");
-        }
+        // Si la base de datos existe, abrir la conexión
+        Debug.Log("La base de datos existe. Abriendo la base de datos...");
+        OpenDB(dbPath);
     }
+    else
+    {
+        Debug.LogError("La base de datos no existe. Asegúrate de haberla creado previamente.");
+    }
+
+    // Mostrar la ruta en la consola
+    Debug.Log("Ruta de la base de datos persistente: " + dbPath);
+}
 
     private void OpenDB(string dbPath)
     {
@@ -34,6 +37,7 @@ public class DatabaseManager : MonoBehaviour
         dbConnection.Open();
 
         Debug.Log("La conexión a la base de datos está abierta.");
+        Debug.Log("Ruta de la base de datos: " + dbPath);
     }
 
     public IDbConnection DbConnection

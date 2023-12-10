@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Configuraciones.unity
+    guid: f6827aa3c54bbf2408cf04dbef8f15c6
+  - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: a5a9da9a7f2465046afc926f88e7ab22
   - enabled: 1
@@ -21,12 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/RunDodge.unity
     guid: bdc0ed5016395464380d18185e7de812
   - enabled: 1
-    path: Assets/Scenes/Configuraciones.unity
-    guid: f6827aa3c54bbf2408cf04dbef8f15c6
-  - enabled: 1
     path: Assets/Scenes/UpDown.unity
     guid: 74cd3323cb097fb4bab8d982b9537753
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TablaPuntuacionesScene.unity
     guid: 605c5a33a1ba620409ae8591abf40210
   - enabled: 1

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de las Terapias</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            background: url('https://static.vecteezy.com/system/resources/previews/006/713/022/non_2x/abstract-health-medical-science-consist-doctor-digital-technology-concept-modern-future-treatment-medicine-on-hi-tech-future-blue-background-for-template-web-design-or-presentation-vector.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+        }
+        #dashboard-container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .graph-container {
+            margin-bottom: 30px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .plotly-graph {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            color: #026e5c; /* Color del título principal */
+            font-size: 36px;
+        }
+    </style>
+</head>
+<body>
+<div id="dashboard-container">
+    <h1>Reporte de las terapias para {{ player_name }}</h1>
+    <!-- Contenedores para los gráficos específicos del jugador -->
+    <div class="graph-container">
+        {{ graph_html1|safe }}
+    </div>
+    <div class="graph-container">
+        {{ graph_html2|safe }}
+    </div>
+    <div class="graph-container">
+        {{ graph_html3|safe }}
+    </div>
+    <div class="graph-container">
+        {{ graph_html4|safe }}
+    </div>
+    <div class="graph-container">
+        {{ graph_html5|safe }}
+    </div>
+    <!-- ... (otros gráficos según sea necesario) -->
+</div>
+</body>
+</html>
